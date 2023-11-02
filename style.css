@@ -1,0 +1,107 @@
+body{
+    background-color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: i.6;
+    margin: 0;
+
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin: 40px 0px 60px 0px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom:60px;
+}
+#Search-box{
+    color: #333;
+    width: 60%;
+    max-width: 450px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0 ,0 ,0 ,0.4);
+    outline: none;
+    margin-right: 20px;
+}
+#Search-btn{
+    color: rgb(245, 244, 244);
+    box-shadow: 0 0 5px rgba(0 ,0 ,0 ,0.3);
+    background-color: rgb(34, 214, 79);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+#Search-btn:hover{
+    background-color:rgb(29, 185, 68);;
+}
+.Search-result{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Search-img img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform .3s ease-in-out;
+
+}
+
+.Search-img{
+    margin-bottom: 60px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0 ,0 ,0 ,0.3);
+    overflow: hidden;
+}
+.Search-img:hover img{
+    transform: scale(1.05 );
+
+}
+.Search-img a{
+    padding: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    transition:  background-color .3s ease-in-out;
+    
+}
+.Search-img:hover a{
+    background-color: rgba(0, 0, 0, 0.13);
+
+}
+
+#show-more{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.925);
+    box-shadow: 0 0 5px rgba(0 ,0 ,0 ,0.3);
+    background-color: #008cba;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition:  background-color .3s ease-in-out;
+    display: none;
+    margin-bottom: 20px;
+}
+
+#show-more:hover{
+    background-color: #086888;
+}
